@@ -1,0 +1,13 @@
+.nav-link {
+    color: black;
+}
+
+#banner {
+    display: flex;
+    height: 300px;
+    background: gray;
+    justify-content: center;
+    align-items: center;
+}
+ 
+  
