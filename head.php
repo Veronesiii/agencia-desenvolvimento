@@ -23,21 +23,21 @@ include_once('funcoes.php');
     <!-- Just an image -->
     <nav class="navbar navbar-light bg-light">
       <a class="navbar-brand" href="#">
-        <img src="images/logo.png" width="120" alt="">
+        <img src="images/glass-logo.png" width="120" alt="">
       </a>
 
       <ul class="nav">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Home</a>
+          <a class="nav-link active" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Serviços</a>
+          <a class="nav-link" href="#servico">Serviços</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sobre nós</a>
+          <a class="nav-link" href="#sobre">Sobre nós</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contato</a>
+          <a class="nav-link" href="#contato" tabindex="-1" aria-disabled="true">Contato</a>
         </li>
       </ul>
     </nav>

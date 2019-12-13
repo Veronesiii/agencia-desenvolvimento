@@ -4,17 +4,17 @@ $servicos = [
     [
         "nome"=> "Criação de sites",
         "descrição"=>"Descrição legal",
-        "imagem"=>"sobre-nos.svg"
+        "imagem"=>"foto1.svg"
     ],
     [
         "nome"=> "Criação de bolo",
         "descrição"=>"Descrição legal",
-        "imagem"=>"sobre-nos.svg"
+        "imagem"=>"foto2.svg"
     ],
     [
         "nome"=> "Criação de hambúrguer",
         "descrição"=>"Descrição legal",
-        "imagem"=>"sobre-nos.svg"
+        "imagem"=>"foto3.svg"
     ]
 ];
 
@@ -23,7 +23,7 @@ function listarServicos(){
     foreach ($servicos as $servico) {
         echo "<div class='col-4'>
         <div class='card'>
-          <img src='images/".$servico['imagem']."' class='card-img-top' alt='...'>
+          <img src='images/".$servico['imagem']."' class='img-fluid' alt='...'>
           <div class='card-body'>
             <h5 class='card-title'>".$servico['nome']."</h5>
             <p class='card-text'>".$servico['descrição']."</p>
